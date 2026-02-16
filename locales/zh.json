@@ -1,0 +1,343 @@
+
+{
+  "app": {
+    "title": "考勤系统"
+  },
+  "common": {
+    "employee": "员工",
+    "save": "保存",
+    "cancel": "取消",
+    "submit": "提交",
+    "approve": "批准",
+    "reject": "拒绝",
+    "actions": "操作",
+    "clear": "清除",
+    "print": "打印",
+    "totals": "总计",
+    "today": "今天",
+    "previous_month": "上个月",
+    "next_month": "下个月",
+    "month": "月份",
+    "year": "年份"
+  },
+  "sidebar": {
+    "dashboard": "仪表板",
+    "employees": "员工",
+    "attendance": "考勤",
+    "attendance_sheet": "考勤表",
+    "my_attendance": "我的考勤",
+    "leave_management": "休假管理",
+    "tasks": "任务",
+    "all_tasks": "所有任务",
+    "my_tasks": "我的任务",
+    "reports": "报告",
+    "settings": "设置",
+    "help": "帮助",
+    "announcements": "公告",
+    "audit_logs": "审计日志",
+    "notifications": "通知",
+    "data_analytics": "数据分析",
+    "payroll": "薪资",
+    "shifts": "管理班次",
+    "shift_roster": "排班表",
+    "manage_shifts": "管理班次",
+    "bulk_attendance": "批量考勤",
+    "permits": "许可证",
+    "cars_list": "车辆",
+    "asset_management": "资产管理",
+    "install": "安装应用",
+    "performance": "表现",
+    "recruitment": "招聘",
+    "hr_hub": "人力资源中心",
+    "employee_journey": "员工历程",
+    "disciplinary": "纪律处分",
+    "exit_management": "离职管理",
+    "hours_calculator": "工时计算器",
+    "policy_reports": "政策报告",
+    "expense_management": "费用管理",
+    "document_center": "文档中心",
+    "custom_forms": "自定义表单",
+    "form_builder": "表单生成器",
+    "form_responses": "表单回应",
+    "fill_form": "填写表单",
+    "alerts": "警报",
+    "org_chart": "组织结构图",
+    "incentives": "激励措施",
+    "biometric_import": "生物识别导入",
+    "calculation_rules": "计算规则",
+    "headers": {
+      "core_hr": "核心人力资源",
+      "operations": "运营",
+      "compliance_legal": "合规与法律",
+      "finance_assets": "财务与资产",
+      "platform_reports": "平台与报告"
+    },
+    "subheaders": {
+      "attendance": "考勤",
+      "tasks": "任务",
+      "shifts": "班次",
+      "assets": "资产",
+      "finance": "财务",
+      "reports_analytics": "报告与分析",
+      "engagement": "员工参与",
+      "system": "系统工具"
+    }
+  },
+  "auth": {
+    "login_title": "欢迎回来",
+    "login_subtitle": "登录以管理您的团队",
+    "admin_login": "管理员登录",
+    "employee_login": "员工登录",
+    "admin_demo_note": "使用预填的演示凭据进行管理员访问。",
+    "employee_login_note": "输入您注册时使用的姓氏和电话号码。",
+    "logging_in": "登录中...",
+    "login_error_employee": "找不到员工或详细信息不正确。请联系您的管理员。",
+    "login_error_admin": "演示模式的管理员凭据无效。",
+    "signup_title": "创建账户",
+    "email": "电子邮件地址",
+    "password": "密码",
+    "surname": "姓氏（与记录一致）",
+    "phone": "电话号码",
+    "login_button": "登录",
+    "signup_button": "注册",
+    "no_account": "没有账户？",
+    "has_account": "已有账户？",
+    "signup_now": "立即注册",
+    "login_now": "立即登录",
+    "select_language": "选择语言"
+  },
+  "dashboard": {
+    "welcome": "欢迎回来, {name}!",
+    "all_branches_subtitle": "这是所有公司活动的概览。",
+    "single_branch_subtitle": "这是您所在分支机构活动的概览。",
+    "viewing_branch": "查看分支",
+    "all_branches": "所有分支",
+    "vs_yesterday": "与昨天相比",
+    "cards": {
+      "employees_present": "出勤员工",
+      "on_leave_sick": "休假/病假",
+      "pending_requests": "待处理请求"
+    },
+    "team_status": {
+      "title": "今日团队状态",
+      "present": "出勤",
+      "on_leave": "休假",
+      "absent": "缺勤",
+      "no_one_present": "尚无人打卡。",
+      "no_one_on_leave": "今天无人休假。",
+      "everyone_accounted_for": "全员到齐。"
+    },
+    "quick_actions": "快捷操作",
+    "actions": {
+      "add_user": "添加用户",
+      "announce": "发布公告",
+      "bulk_edit": "批量编辑"
+    }
+  },
+  "attendance": {
+    "all_employees": "所有员工",
+    "select_employee_prompt_title": "选择一名员工",
+    "select_employee_prompt_desc": "从上面的下拉菜单中选择一名员工以查看和管理他们的考勤日历。"
+  },
+  "attendance_statuses": {
+    "present": "出勤",
+    "absent": "缺勤",
+    "leave": "休假",
+    "sick": "病假",
+    "holiday": "假日",
+    "remote": "远程办公",
+    "weekend": "周末",
+    "off": "休息"
+  },
+  "bulk_attendance": {
+    "notification_weekdays": "已为 {count} 名员工将工作日标记为“出勤”。",
+    "notification_status": "已为 {count} 名员工应用 '{status}'。"
+  },
+   "ai_chatbot": {
+    "title": "AI 助手",
+    "placeholder": "询问有关人力资源政策的问题...",
+    "send": "发送"
+  },
+  "leave_management": {
+    "request_leave": "申请休假",
+    "modal": {
+      "title": "新的休假申请",
+      "start_date": "开始日期",
+      "end_date": "结束日期",
+      "reason": "原因",
+      "success_title": "申请已成功提交",
+      "success_message": "您的休假申请已发送以供批准。您将会收到决定的通知。"
+    },
+    "table": {
+      "start_date": "开始日期",
+      "end_date": "结束日期",
+      "reason": "原因",
+      "status": "状态",
+      "actions": "操作"
+    },
+    "empty": {
+      "title": "没有休假申请",
+      "description": "您尚未申请任何休假，或者没有与当前视图匹配的申请。"
+    },
+    "notify_whatsapp": "通过WhatsApp通知",
+    "whatsapp_message": "亲爱的 {employeeName}，您从 {startDate} 到 {endDate} 的休假申请已{status}。 - Natty Hub"
+  },
+    "payroll": {
+    "title": "薪资核算",
+    "select_period": "选择薪资周期",
+    "generate_button": "为 {count} 名员工生成薪资",
+    "run_payroll": "核算薪资",
+    "payroll_for": "{year}年{month}薪资",
+    "employee": "员工",
+    "base_salary": "基本工资",
+    "bonus": "奖金",
+    "commission": "佣金",
+    "allowances": "津贴",
+    "owings": "欠款",
+    "statutory": "法定",
+    "actions": "操作",
+    "view_payslip": "查看工资单",
+    "gross_earnings": "应发工资",
+    "total_deductions": "总扣除",
+    "net_salary": "实发工资",
+    "no_employees": "没有可处理薪资信息的员工。",
+    "generate_success": "{year}年{month}的薪资已成功生成。",
+    "payslip": {
+      "title": "工资单",
+      "pay_date": "支付日期",
+      "pay_period": "薪资周期",
+      "earnings": "收入",
+      "deductions": "扣除",
+      "overtime_pay": "加班费",
+      "late_arrival": "迟到",
+      "off_day": "休假日（无薪）",
+      "net_payable": "实发工资（应付）"
+    }
+  },
+  "permits": {
+    "tabs": {
+      "vehicle": "车辆许可证",
+      "work": "工作许可证",
+      "business": "营业执照"
+    }
+  },
+  "vehicle_permits": {
+    "add_vehicle": "添加车辆",
+    "confirm_delete_title": "删除车辆",
+    "confirm_delete_message": "您确定要删除 {model} ({plate}) 吗？",
+    "table": {
+      "model": "型号",
+      "plate": "车牌号",
+      "owner": "所有者",
+      "department": "部门"
+    },
+    "empty": {
+      "title": "未添加车辆",
+      "description": "添加公司车辆以跟踪其文件和许可证。"
+    }
+  },
+  "work_permits": {
+    "add_permit": "添加工作许可证",
+    "confirm_delete_title": "删除许可证",
+    "confirm_delete_message": "您确定要删除许可证 #{permitNumber} 吗？",
+    "table": {
+      "permit_number": "许可证号",
+      "issue_date": "签发日期",
+      "expiry_date": "到期日期"
+    },
+    "empty": {
+      "title": "没有工作许可证",
+      "description": "在此处添加和管理员工工作许可证。"
+    }
+  },
+  "performance": {
+    "select_employee": "选择一名员工以查看其表现",
+    "select_employee_desc": "选择一名员工和日期范围以查看其绩效指标。",
+    "generating": "生成中...",
+    "generate_button": "生成绩效洞察"
+  },
+  "recruitment": {
+    "add_applicant": "添加申请人",
+    "add_position": "添加职位",
+    "positions_title": "空缺职位",
+    "applicants_for": "申请人：{position}",
+    "select_position_prompt": "请在上方选择一个职位以查看申请人。",
+    "statuses": {
+      "pending": "待处理",
+      "interview": "面试",
+      "offer": "录用",
+      "hired": "已聘用",
+      "rejected": "已拒绝"
+    }
+  },
+  "disciplinary": {
+    "search_placeholder": "搜索员工...",
+    "no_records_for_employee": "未找到该员工的纪律处分记录。",
+    "no_employees_found": "没有找到符合搜索条件的员工。",
+    "add_record": "添加记录",
+    "export_pdf": "导出为 PDF",
+    "record_details": "记录详情",
+    "incident_date": "事件日期",
+    "record_date": "记录日期",
+    "action_type": "处分类型",
+    "reason_for_action": "处分原因",
+    "feedback_to_employee": "给员工的反馈",
+    "follow_up_date": "跟进日期",
+    "process_log": "处理日志",
+    "add_update": "添加更新",
+    "no_updates_yet": "此案例尚无更新记录。",
+    "update_author": "由 {authorName}"
+  },
+  "biometric_import": {
+    "processing": "处理中...",
+    "process_button": "处理日志",
+    "import_btn": "导入数据",
+    "upload_section_title": "上传日志文件",
+    "drag_drop": "将文件拖放到此处",
+    "or": "或",
+    "select_file": "浏览文件",
+    "paste_section_title": "或粘贴日志数据",
+    "format_title": "预期格式",
+    "format_desc": "提供一个以制表符或空格分隔的文件，包含员工 ID 和时间戳。",
+    "results": {
+      "title": "导入结果",
+      "success": "成功导入 {count} 条记录。",
+      "errors": "无法导入 {count} 条记录：",
+      "skipped_duplicates": "已跳过/重复",
+      "line_error": "第 {line} 行：{error}"
+    }
+  },
+  "modals": {
+    "shift_assignment": {
+      "assign_title": "分配班次",
+      "edit_title": "编辑班次分配",
+      "select_shift": "选择班次",
+      "unassign": "取消分配"
+    },
+    "job_position": {
+      "add_title": "添加新职位",
+      "edit_title": "编辑职位",
+      "title": "职位名称",
+      "department": "部门",
+      "status": "状态",
+      "description": "描述",
+      "statuses": {
+        "open": "空缺",
+        "filled": "已满"
+      }
+    },
+    "disciplinary": {
+      "add_title": "添加纪律处分记录",
+      "edit_title": "编辑纪律处分记录",
+      "incident_date": "事件日期",
+      "record_date": "记录日期",
+      "type": "处分类型",
+      "reason": "处分原因",
+      "feedback": "给员工的反馈",
+      "follow_up": "跟进日期",
+      "evidence": "证据文件（可选）",
+      "update_title": "添加处理更新",
+      "update_note": "更新说明"
+    }
+  }
+}

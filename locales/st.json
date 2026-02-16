@@ -1,0 +1,343 @@
+
+{
+  "app": {
+    "title": "Sistimi ea ho ba Teng"
+  },
+  "common": {
+    "employee": "Mohiruoa",
+    "save": "Boloka",
+    "cancel": "Hlakola",
+    "submit": "Kenya",
+    "approve": "Amohela",
+    "reject": "Hana",
+    "actions": "Liketso",
+    "clear": "Hlakola",
+    "print": "Hatisa",
+    "totals": "Kakaretso",
+    "today": "Kajeno",
+    "previous_month": "Khoeli e Fetileng",
+    "next_month": "Khoeli e Tlang",
+    "month": "Khoeli",
+    "year": "Selemo"
+  },
+  "sidebar": {
+    "dashboard": "Boto ea Taolo",
+    "employees": "Bahiruoa",
+    "attendance": "Ho ba Teng",
+    "attendance_sheet": "Leqephe la ho ba Teng",
+    "my_attendance": "Ho ba Teng ha Ka",
+    "leave_management": "Tsamaiso ea Phomolo",
+    "tasks": "Mosebetsi",
+    "all_tasks": "Mosebetsi Ohle",
+    "my_tasks": "Mosebetsi oa Ka",
+    "reports": "Litlaleho",
+    "settings": "Litlhophiso",
+    "help": "Thuso",
+    "announcements": "Litsebiso",
+    "audit_logs": "Logs ea Audit",
+    "notifications": "Litemoso",
+    "data_analytics": "Tlhahlobo ea Lintlha",
+    "payroll": "Meputso",
+    "shifts": "Laola Lichifi",
+    "shift_roster": "Roster ea Lichifi",
+    "manage_shifts": "Laola Lichifi",
+    "bulk_attendance": "Ho ba Teng ka Bongata",
+    "permits": "Litumello",
+    "cars_list": "Likoloi",
+    "asset_management": "Tsamaiso ea Thepa",
+    "install": "Kenya App",
+    "performance": "Tshebetso",
+    "recruitment": "Ho Hira",
+    "hr_hub": "HR Hub",
+    "employee_journey": "Leeto la Mohiruoa",
+    "disciplinary": "Taelo",
+    "exit_management": "Tsamaiso ea ho Tlohela Mosebetsi",
+    "hours_calculator": "Sejeli sa Lihora",
+    "policy_reports": "Litlaleho tsa Melaoana",
+    "expense_management": "Tsamaiso ea Litjeho",
+    "document_center": "Setsi sa Litokomane",
+    "custom_forms": "Liforomo tse Ikhethileng",
+    "form_builder": "Moetsi oa Foromo",
+    "form_responses": "Likarabo tsa Foromo",
+    "fill_form": "Tlatsa Foromo",
+    "alerts": "Litemoso",
+    "org_chart": "Chate ea Mokhatlo",
+    "incentives": "Likhothatso",
+    "biometric_import": "Kenyelletso ea Biometric",
+    "calculation_rules": "Melao ea Lipalo",
+    "headers": {
+      "core_hr": "Core HR",
+      "operations": "Ts'ebetso",
+      "compliance_legal": "Molao le Tumellano",
+      "finance_assets": "Lichelete & Thepa",
+      "platform_reports": "Sethala & Litlaleho"
+    },
+    "subheaders": {
+      "attendance": "Ho ba Teng",
+      "tasks": "Mosebetsi",
+      "shifts": "Lichifi",
+      "assets": "Thepa",
+      "finance": "Lichelete",
+      "reports_analytics": "Litlaleho & Tlhahlobo",
+      "engagement": "Boitlamo",
+      "system": "Lisebelisoa tsa Sistimi"
+    }
+  },
+  "auth": {
+    "login_title": "O amohelehile Hape",
+    "login_subtitle": "Kena ho laola sehlopha sa hau",
+    "admin_login": "Kena joalo ka Motsamaisi",
+    "employee_login": "Kena joalo ka Mohiruoa",
+    "admin_demo_note": "Sebelisa lintlha tsa demo tse seng li tlatsitsoe bakeng sa phihlello ea motsamaisi.",
+    "employee_login_note": "Kenya fane le nomoro ea mohala tseo u ngolisitsoeng ka tsona.",
+    "logging_in": "E ntse e kena...",
+    "login_error_employee": "Mohiruoa ha a fumanehe kapa lintlha ha li nepahetse. Ka kopo ikopanye le motsamaisi oa hau.",
+    "login_error_admin": "Lintlha tsa motsamaisi tse fosahetseng bakeng sa mokhoa oa demo.",
+    "signup_title": "Iketsetse Ak'haonte",
+    "email": "Aterese ea Imeile",
+    "password": "Password",
+    "surname": "Fane (joalo ka rekotong)",
+    "phone": "Nomoro ea mohala",
+    "login_button": "Kena",
+    "signup_button": "Ingolise",
+    "no_account": "Ha u na ak'haonte?",
+    "has_account": "U se u na le ak'haonte?",
+    "signup_now": "Ingolise hona joale",
+    "login_now": "Kena",
+    "select_language": "Khetha Puo"
+  },
+  "dashboard": {
+    "welcome": "O amohelehile hape, {name}!",
+    "all_branches_subtitle": "Mona ke kakaretso ea liketsahalo tsohle tsa khamphani.",
+    "single_branch_subtitle": "Mona ke kakaretso ea liketsahalo tsa lekala la hau.",
+    "viewing_branch": "Ho sheba Lekala",
+    "all_branches": "Makala Ohle",
+    "vs_yesterday": "vs maobane",
+    "cards": {
+      "employees_present": "Bahiruoa ba Teng",
+      "on_leave_sick": "Ba Phomolong / Baa Kula",
+      "pending_requests": "Likopo tse ntseng li emetse"
+    },
+    "team_status": {
+      "title": "Boemo ba Sehlopha Kajeno",
+      "present": "Ba Teng",
+      "on_leave": "Ba Phomolong",
+      "absent": "Ba Sieo",
+      "no_one_present": "Ha ho motho ea seng a kentse nako.",
+      "no_one_on_leave": "Ha ho motho ea phomolong kajeno.",
+      "everyone_accounted_for": "E mong le e mong o teng."
+    },
+    "quick_actions": "Liketso tse Potlakileng",
+    "actions": {
+      "add_user": "Kenya Mosebelisi",
+      "announce": "Tsebisa",
+      "bulk_edit": "Lokisa ka Bongata"
+    }
+  },
+  "attendance": {
+    "all_employees": "Basebetsi bohle",
+    "select_employee_prompt_title": "Khetha Mohiruoa",
+    "select_employee_prompt_desc": "Khetha mohiruoa ho tsoa lenaneng le theohang kaholimo ho sheba le ho laola khalendara ea bona ea ho ba teng."
+  },
+  "attendance_statuses": {
+    "present": "O Teng",
+    "absent": "O Sieo",
+    "leave": "Phomolo",
+    "sick": "Kula",
+    "holiday": "Letsatsi la Phomolo",
+    "remote": "Lapeng",
+    "weekend": "Mafelo-beke",
+    "off": "Phomotse"
+  },
+  "bulk_attendance": {
+    "notification_weekdays": "Matsatsi a beke a tšoailoe e le Ba Teng bakeng sa basebetsi ba {count}.",
+    "notification_status": "E sebelisitse '{status}' bakeng sa basebetsi ba {count}."
+  },
+   "ai_chatbot": {
+    "title": "Mothusi oa AI",
+    "placeholder": "Botsa potso ka melaoana ea HR...",
+    "send": "Romela"
+  },
+  "leave_management": {
+    "request_leave": "Kopa Phomolo",
+    "modal": {
+      "title": "Kopo e Ncha ea Phomolo",
+      "start_date": "Letsatsi la Qalo",
+      "end_date": "Letsatsi la Qetello",
+      "reason": "Lebaka",
+      "success_title": "Kopo e Rometsoe ka Katleho",
+      "success_message": "Kopo ea hau ea phomolo e rometsoe hore e amoheloe. U tla tsebisoa ka qeto."
+    },
+    "table": {
+      "start_date": "Letsatsi la Qalo",
+      "end_date": "Letsatsi la Qetello",
+      "reason": "Lebaka",
+      "status": "Boemo",
+      "actions": "Liketso"
+    },
+    "empty": {
+      "title": "Ha ho Likopo tsa Phomolo",
+      "description": "Ha u e-so kope phomolo, kapa ha ho likopo tse lumellanang le pono ea hajoale."
+    },
+    "notify_whatsapp": "Tsebisa ka WhatsApp",
+    "whatsapp_message": "Moratuoa {employeeName}, kopo ea hau ea phomolo ho tloha {startDate} ho ea {endDate} e {status}. - Natty Hub"
+  },
+    "payroll": {
+    "title": "Ts'ebetso ea Meputso",
+    "select_period": "Khetha Nako ea Meputso",
+    "generate_button": "Hlahisa Meputso bakeng sa Basebetsi ba {count}",
+    "run_payroll": "Sebetsa Meputso",
+    "payroll_for": "Meputso ea {month} {year}",
+    "employee": "Mohiruoa",
+    "base_salary": "Moputso oa Motheo",
+    "bonus": "Bonase",
+    "commission": "Khomishene",
+    "allowances": "Lichelete tsa Tlatsetso",
+    "owings": "Likoloto",
+    "statutory": "Molao",
+    "actions": "Liketso",
+    "view_payslip": "Sheba Payslip",
+    "gross_earnings": "Moputso o Feletseng",
+    "total_deductions": "Kakaretso ea Lichelete tse Tlositsoeng",
+    "net_salary": "Moputso o Kenang Letsohong",
+    "no_employees": "Ha ho na basebetsi ba nang le tlhaiso-leseling ea meputso ho e sebetsa.",
+    "generate_success": "Meputso ea {month} {year} e hlahisitsoe ka katleho.",
+    "payslip": {
+      "title": "Payslip",
+      "pay_date": "Letsatsi la Tefo",
+      "pay_period": "Nako ea Tefo",
+      "earnings": "Melemo",
+      "deductions": "Lichelete tse Tlositsoeng",
+      "overtime_pay": "Tefo ea Nako e Eketsehileng",
+      "late_arrival": "Ho Fihla Morao",
+      "off_day": "Letsatsi la Phomolo (le sa Lefelloeng)",
+      "net_payable": "Moputso o Kenang Letsohong (o lokelang ho lefshoa)"
+    }
+  },
+  "permits": {
+    "tabs": {
+      "vehicle": "Litumello tsa Likoloi",
+      "work": "Litumello tsa Mosebetsi",
+      "business": "Lilaesense tsa Khoebo"
+    }
+  },
+  "vehicle_permits": {
+    "add_vehicle": "Kenya Koloi",
+    "confirm_delete_title": "Hlakola Koloi",
+    "confirm_delete_message": "Na u na le bonnete ba hore u batla ho hlakola {model} ({plate})?",
+    "table": {
+      "model": "Mofuta",
+      "plate": "Nomoro ea Poleiti",
+      "owner": "Mong'a eona",
+      "department": "Lefapha"
+    },
+    "empty": {
+      "title": "Ha ho Likoloi tse Ekelitsoeng",
+      "description": "Kenya likoloi tsa k'hamphani ho latela litokomane le litumello tsa tsona."
+    }
+  },
+  "work_permits": {
+    "add_permit": "Kenya Tumello ea Mosebetsi",
+    "confirm_delete_title": "Hlakola Tumello",
+    "confirm_delete_message": "Na u na le bonnete ba hore u batla ho hlakola tumello #{permitNumber}?",
+    "table": {
+      "permit_number": "Nomoro ea Tumello",
+      "issue_date": "Letsatsi la Tlhahiso",
+      "expiry_date": "Letsatsi la ho Felloa ke Nako"
+    },
+    "empty": {
+      "title": "Ha ho Litumello tsa Mosebetsi",
+      "description": "Kenya le ho laola litumello tsa mosebetsi tsa basebetsi mona."
+    }
+  },
+  "performance": {
+    "select_employee": "Khetha mosebeletsi ho bona tšebetso ea hae",
+    "select_employee_desc": "Khetha mosebeletsi le nako ho bona lipalo tsa tšebetso ea hae.",
+    "generating": "E ntse e etsa...",
+    "generate_button": "Hlahisa Tlhaloso ea Tshebetso"
+  },
+  "recruitment": {
+    "add_applicant": "Kenya Mokopi",
+    "add_position": "Kenya Mosebetsi",
+    "positions_title": "Mesebetsi e Fumanehang",
+    "applicants_for": "Bakopi ba: {position}",
+    "select_position_prompt": "Khetha mosebetsi ka holimo ho bona bakopi.",
+    "statuses": {
+      "pending": "E ntse e emetse",
+      "interview": "Puisano",
+      "offer": "Tlhahiso",
+      "hired": "Hiriloeng",
+      "rejected": "Hanoe"
+    }
+  },
+  "disciplinary": {
+    "search_placeholder": "Batla mosebeletsi...",
+    "no_records_for_employee": "Ha ho na lirekoto tsa taeo tse fumanoeng bakeng sa mosebeletsi enoa.",
+    "no_employees_found": "Ha ho na basebetsi ba lumellanang le patlo ea hau.",
+    "add_record": "Kenya Rekoto",
+    "export_pdf": "Romella joalo ka PDF",
+    "record_details": "Lintlha tsa Rekoto",
+    "incident_date": "Letsatsi la Ketsahalo",
+    "record_date": "Letsatsi la ho Rekota",
+    "action_type": "Mofuta oa Ketso",
+    "reason_for_action": "Lebaka la Ketso",
+    "feedback_to_employee": "Maikutlo ho Mosebeletsi",
+    "follow_up_date": "Letsatsi la Tlhahlobo",
+    "process_log": "Log ea Ts'ebetso",
+    "add_update": "Kenya Tlhahiso-leseling",
+    "no_updates_yet": "Ha ho na lintlafatso tse seng li tlalehiloe bakeng sa nyeoe ena.",
+    "update_author": "ka {authorName}"
+  },
+  "biometric_import": {
+    "processing": "E ntse e sebetsa...",
+    "process_button": "Sebetsana le Li-log",
+    "import_btn": "Kenya Lintlha",
+    "upload_section_title": "Kenya Faele ea Log",
+    "drag_drop": "Hulela le ho lahla faele ea hau mona",
+    "or": "kapa",
+    "select_file": "batla faele",
+    "paste_section_title": "Kapa peista Lintlha tsa Log",
+    "format_title": "Sebopeho se Lebelletsoeng",
+    "format_desc": "Fana ka faele e arotsoeng ka li-tab kapa sebaka se nang le ID ea Mohiruoa le setempe sa nako.",
+    "results": {
+      "title": "Liphetho tsa ho Kenya",
+      "success": "E kentse lirekoto tse {count} ka katleho.",
+      "errors": "E hlotsoe ho kenya lirekoto tse {count}:",
+      "skipped_duplicates": "Tlolotsoe/Pheta-pheto",
+      "line_error": "Mohala {line}: {error}"
+    }
+  },
+  "modals": {
+     "shift_assignment": {
+      "assign_title": "Abela Chifi",
+      "edit_title": "Fetola Kabelo ea Chifi",
+      "select_shift": "Khetha Chifi",
+      "unassign": "Tlosa Kabelo"
+    },
+    "job_position": {
+      "add_title": "Kenya Mosebetsi o Mocha",
+      "edit_title": "Lokisa Mosebetsi",
+      "title": "Lebitso la Mosebetsi",
+      "department": "Lefapha",
+      "status": "Boemo",
+      "description": "Tlhaloso",
+      "statuses": {
+        "open": "O bulehile",
+        "filled": "O tletse"
+      }
+    },
+    "disciplinary": {
+      "add_title": "Kenya Rekoto ea Taeo",
+      "edit_title": "Lokisa Rekoto ea Taeo",
+      "incident_date": "Letsatsi la Ketsahalo",
+      "record_date": "Letsatsi la ho Rekota",
+      "type": "Mofuta oa Ketso",
+      "reason": "Lebaka la Ketso",
+      "feedback": "Maikutlo ho Mosebeletsi",
+      "follow_up": "Letsatsi la Tlhahlobo",
+      "evidence": "Faele ea Bopaki (Ka boikhethelo)",
+      "update_title": "Kenya Tlhahiso-leseling ea Ts'ebetso",
+      "update_note": "Ntlha ea Tlhahiso-leseling"
+    }
+  }
+}

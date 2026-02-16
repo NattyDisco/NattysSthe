@@ -1,0 +1,343 @@
+
+{
+  "app": {
+    "title": "उपस्थिति प्रणाली"
+  },
+  "common": {
+    "employee": "कर्मचारी",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "submit": "प्रस्तुत करें",
+    "approve": "स्वीकार करें",
+    "reject": "अस्वीकार करें",
+    "actions": "कार्रवाई",
+    "clear": "साफ़ करें",
+    "print": "प्रिंट करें",
+    "totals": "कुल",
+    "today": "आज",
+    "previous_month": "पिछला महीना",
+    "next_month": "अगला महीना",
+    "month": "महीना",
+    "year": "साल"
+  },
+  "sidebar": {
+    "dashboard": "डैशबोर्ड",
+    "employees": "कर्मचारी",
+    "attendance": "उपस्थिति",
+    "attendance_sheet": "उपस्थिति पत्रक",
+    "my_attendance": "मेरी उपस्थिति",
+    "leave_management": "अवकाश प्रबंधन",
+    "tasks": "कार्य",
+    "all_tasks": "सभी कार्य",
+    "my_tasks": "मेरे कार्य",
+    "reports": "रिपोर्ट",
+    "settings": "सेटिंग्स",
+    "help": "सहायता",
+    "announcements": "घोषणाएँ",
+    "audit_logs": "ऑडिट लॉग",
+    "notifications": "सूचनाएं",
+    "data_analytics": "डेटा एनालिटिक्स",
+    "payroll": "वेतन",
+    "shifts": "शिफ्ट प्रबंधित करें",
+    "shift_roster": "शिफ्ट रोस्टर",
+    "manage_shifts": "शिफ्ट प्रबंधित करें",
+    "bulk_attendance": "थोक उपस्थिति",
+    "permits": "परमिट",
+    "cars_list": "कारें",
+    "asset_management": "संपत्ति प्रबंधन",
+    "install": "ऐप इंस्टॉल करें",
+    "performance": "प्रदर्शन",
+    "recruitment": "भर्ती",
+    "hr_hub": "एचआर हब",
+    "employee_journey": "कर्मचारी यात्रा",
+    "disciplinary": "अनुशासनिक",
+    "exit_management": "निकास प्रबंधन",
+    "hours_calculator": "घंटे कैलकुलेटर",
+    "policy_reports": "नीति रिपोर्ट",
+    "expense_management": "व्यय प्रबंधन",
+    "document_center": "दस्तावेज़ केंद्र",
+    "custom_forms": "कस्टम फॉर्म",
+    "form_builder": "फॉर्म बिल्डर",
+    "form_responses": "फॉर्म प्रतिक्रियाएं",
+    "fill_form": "फॉर्म भरें",
+    "alerts": "अलर्ट",
+    "org_chart": "संगठन चार्ट",
+    "incentives": "प्रोत्साहन",
+    "biometric_import": "बायोमेट्रिक आयात",
+    "calculation_rules": "गणना नियम",
+    "headers": {
+      "core_hr": "कोर एचआर",
+      "operations": "संचालन",
+      "compliance_legal": "अनुपालन और कानूनी",
+      "finance_assets": "वित्त और संपत्ति",
+      "platform_reports": "प्लेटफार्म और रिपोर्ट"
+    },
+    "subheaders": {
+      "attendance": "उपस्थिति",
+      "tasks": "कार्य",
+      "shifts": "शिफ्ट",
+      "assets": "संपत्ति",
+      "finance": "वित्त",
+      "reports_analytics": "रिपोर्ट और विश्लेषण",
+      "engagement": "सगाई",
+      "system": "सिस्टम उपकरण"
+    }
+  },
+  "auth": {
+    "login_title": "वापसी पर स्वागत है",
+    "login_subtitle": "अपनी टीम को प्रबंधित करने के लिए लॉग इन करें",
+    "admin_login": "एडमिन लॉगिन",
+    "employee_login": "कर्मचारी लॉगिन",
+    "admin_demo_note": "एडमिन एक्सेस के लिए पहले से भरे हुए डेमो क्रेडेंशियल्स का उपयोग करें।",
+    "employee_login_note": "पंजीकृत उपनाम और फ़ोन नंबर दर्ज करें।",
+    "logging_in": "लॉग इन हो रहा है...",
+    "login_error_employee": "कर्मचारी नहीं मिला या विवरण गलत हैं। कृपया अपने व्यवस्थापक से संपर्क करें।",
+    "login_error_admin": "डेमो मोड के लिए अमान्य व्यवस्थापक क्रेडेंशियल।",
+    "signup_title": "खाता बनाएं",
+    "email": "ईमेल पता",
+    "password": "पासवर्ड",
+    "surname": "उपनाम (रिकॉर्ड के अनुसार)",
+    "phone": "फोन नंबर",
+    "login_button": "लॉग इन करें",
+    "signup_button": "साइन अप करें",
+    "no_account": "खाता नहीं है?",
+    "has_account": "पहले से खाता है?",
+    "signup_now": "अभी साइन अप करें",
+    "login_now": "अभी लॉग इन करें",
+    "select_language": "भाषा चुनें"
+  },
+  "dashboard": {
+    "welcome": "वापसी पर स्वागत है, {name}!",
+    "all_branches_subtitle": "यहाँ सभी कंपनी गतिविधियों का अवलोकन है।",
+    "single_branch_subtitle": "यहाँ आपकी शाखा की गतिविधियों का अवलोकन है।",
+    "viewing_branch": "शाखा देखना",
+    "all_branches": "सभी शाखाएँ",
+    "vs_yesterday": "कल की तुलना में",
+    "cards": {
+      "employees_present": "उपस्थित कर्मचारी",
+      "on_leave_sick": "छुट्टी/बीमार पर",
+      "pending_requests": "लंबित अनुरोध"
+    },
+    "team_status": {
+      "title": "आज की टीम स्थिति",
+      "present": "उपस्थित",
+      "on_leave": "छुट्टी पर",
+      "absent": "अनुपस्थित",
+      "no_one_present": "अभी तक किसी ने चेक-इन नहीं किया है।",
+      "no_one_on_leave": "आज कोई छुट्टी पर नहीं है।",
+      "everyone_accounted_for": "सभी का हिसाब है।"
+    },
+    "quick_actions": "त्वरित कार्रवाई",
+    "actions": {
+      "add_user": "उपयोगकर्ता जोड़ें",
+      "announce": "घोषणा करें",
+      "bulk_edit": "थोक संपादन"
+    }
+  },
+  "attendance": {
+    "all_employees": "सभी कर्मचारी",
+    "select_employee_prompt_title": "एक कर्मचारी चुनें",
+    "select_employee_prompt_desc": "उनकी उपस्थिति कैलेंडर देखने और प्रबंधित करने के लिए ऊपर दिए गए ड्रॉपडाउन से एक कर्मचारी चुनें।"
+  },
+  "attendance_statuses": {
+    "present": "उपस्थित",
+    "absent": "अनुपस्थित",
+    "leave": "छुट्टी",
+    "sick": "बीमार",
+    "holiday": "अवकाश",
+    "remote": "दूरस्थ",
+    "weekend": "सप्ताहांत",
+    "off": "छुट्टी पर"
+  },
+  "bulk_attendance": {
+    "notification_weekdays": "{count} कर्मचारियों के लिए कार्यदिवसों को 'उपस्थित' के रूप में चिह्नित किया गया।",
+    "notification_status": "{count} कर्मचारियों के लिए '{status}' लागू किया गया।"
+  },
+  "ai_chatbot": {
+    "title": "एआई सहायक",
+    "placeholder": "एचआर नीतियों के बारे में एक प्रश्न पूछें...",
+    "send": "भेजें"
+  },
+  "leave_management": {
+    "request_leave": "छुट्टी का अनुरोध करें",
+    "modal": {
+      "title": "नया अवकाश अनुरोध",
+      "start_date": "आरंभ तिथि",
+      "end_date": "अंतिम तिथि",
+      "reason": "कारण",
+      "success_title": "अनुरोध सफलतापूर्वक प्रस्तुत किया गया",
+      "success_message": "आपका अवकाश अनुरोध अनुमोदन के लिए भेज दिया गया है। आपको निर्णय के बारे में सूचित किया जाएगा।"
+    },
+    "table": {
+      "start_date": "आरंभ तिथि",
+      "end_date": "अंतिम तिथि",
+      "reason": "कारण",
+      "status": "स्थिति",
+      "actions": "कार्रवाई"
+    },
+    "empty": {
+      "title": "कोई अवकाश अनुरोध नहीं",
+      "description": "आपने अभी तक कोई अवकाश अनुरोध नहीं किया है, या कोई अनुरोध वर्तमान दृश्य से मेल नहीं खाता है।"
+    },
+    "notify_whatsapp": "व्हाट्सएप के माध्यम से सूचित करें",
+    "whatsapp_message": "प्रिय {employeeName}, आपका {startDate} से {endDate} तक का अवकाश अनुरोध {status} कर दिया गया है। - उपस्थिति प्रणाली"
+  },
+    "payroll": {
+    "title": "वेतन प्रक्रिया",
+    "select_period": "वेतन अवधि चुनें",
+    "generate_button": "{count} कर्मचारियों के लिए वेतन उत्पन्न करें",
+    "run_payroll": "वेतन चलाएँ",
+    "payroll_for": "{month} {year} के लिए वेतन",
+    "employee": "कर्मचारी",
+    "base_salary": "मूल वेतन",
+    "bonus": "बोनस",
+    "commission": "कमीशन",
+    "allowances": "भत्ते",
+    "owings": "बकाया",
+    "statutory": "वैधानिक",
+    "actions": "कार्रवाई",
+    "view_payslip": "वेतन पर्ची देखें",
+    "gross_earnings": "सकल कमाई",
+    "total_deductions": "कुल कटौती",
+    "net_salary": "शुद्ध वेतन",
+    "no_employees": "प्रक्रिया के लिए वेतन जानकारी वाले कोई कर्मचारी नहीं हैं।",
+    "generate_success": "{month} {year} के लिए वेतन सफलतापूर्वक उत्पन्न हो गया है।",
+    "payslip": {
+      "title": "वेतन पर्ची",
+      "pay_date": "भुगतान तिथि",
+      "pay_period": "भुगतान अवधि",
+      "earnings": "कमाई",
+      "deductions": "कटौती",
+      "overtime_pay": "ओवरटाइम भुगतान",
+      "late_arrival": "देर से आगमन",
+      "off_day": "अवकाश (अवैतनिक)",
+      "net_payable": "शुद्ध वेतन (देय)"
+    }
+  },
+  "permits": {
+    "tabs": {
+      "vehicle": "वाहन परमिट",
+      "work": "कार्य परमिट",
+      "business": "व्यापार लाइसेंस"
+    }
+  },
+  "vehicle_permits": {
+    "add_vehicle": "वाहन जोड़ें",
+    "confirm_delete_title": "वाहन हटाएं",
+    "confirm_delete_message": "क्या आप वाकई {model} ({plate}) को हटाना चाहते हैं?",
+    "table": {
+      "model": "मॉडल",
+      "plate": "प्लेट नंबर",
+      "owner": "मालिक",
+      "department": "विभाग"
+    },
+    "empty": {
+      "title": "कोई वाहन नहीं जोड़ा गया",
+      "description": "उनके दस्तावेज़ों और परमिटों को ट्रैक करने के लिए कंपनी के वाहन जोड़ें।"
+    }
+  },
+  "work_permits": {
+    "add_permit": "कार्य परमिट जोड़ें",
+    "confirm_delete_title": "परमिट हटाएं",
+    "confirm_delete_message": "क्या आप वाकई परमिट #{permitNumber} को हटाना चाहते हैं?",
+    "table": {
+      "permit_number": "परमिट नंबर",
+      "issue_date": "जारी करने की तारीख",
+      "expiry_date": "समाप्ति तिथि"
+    },
+    "empty": {
+      "title": "कोई कार्य परमिट नहीं",
+      "description": "यहां कर्मचारी कार्य परमिट जोड़ें और प्रबंधित करें।"
+    }
+  },
+  "performance": {
+    "select_employee": "प्रदर्शन देखने के लिए एक कर्मचारी चुनें",
+    "select_employee_desc": "उनके प्रदर्शन मेट्रिक्स देखने के लिए एक कर्मचारी और दिनांक सीमा चुनें।",
+    "generating": "उत्पन्न हो रहा है...",
+    "generate_button": "प्रदर्शन अंतर्दृष्टि उत्पन्न करें"
+  },
+  "recruitment": {
+    "add_applicant": "आवेदक जोड़ें",
+    "add_position": "पद जोड़ें",
+    "positions_title": "खुले पद",
+    "applicants_for": "के लिए आवेदक: {position}",
+    "select_position_prompt": "आवेदकों को देखने के लिए ऊपर एक पद चुनें।",
+    "statuses": {
+      "pending": "लंबित",
+      "interview": "साक्षात्कार",
+      "offer": "प्रस्ताव",
+      "hired": "नियुक्त",
+      "rejected": "अस्वीकृत"
+    }
+  },
+  "disciplinary": {
+    "search_placeholder": "कर्मचारी खोजें...",
+    "no_records_for_employee": "इस कर्मचारी के लिए कोई अनुशासनात्मक रिकॉर्ड नहीं मिला।",
+    "no_employees_found": "आपकी खोज से कोई कर्मचारी मेल नहीं खाता।",
+    "add_record": "रिकॉर्ड जोड़ें",
+    "export_pdf": "पीडीएफ के रूप में निर्यात करें",
+    "record_details": "रिकॉर्ड विवरण",
+    "incident_date": "घटना की तारीख",
+    "record_date": "रिकॉर्ड करने की तारीख",
+    "action_type": "कार्रवाई का प्रकार",
+    "reason_for_action": "कार्रवाई का कारण",
+    "feedback_to_employee": "कर्मचारी को प्रतिक्रिया",
+    "follow_up_date": "फॉलो-अप तिथि",
+    "process_log": "प्रक्रिया लॉग",
+    "add_update": "अपडेट जोड़ें",
+    "no_updates_yet": "इस मामले के लिए अभी तक कोई अपडेट दर्ज नहीं किया गया है।",
+    "update_author": "{authorName} द्वारा"
+  },
+  "biometric_import": {
+    "processing": "संसाधित हो रहा है...",
+    "process_button": "लॉग संसाधित करें",
+    "import_btn": "डेटा आयात करें",
+    "upload_section_title": "लॉग फ़ाइल अपलोड करें",
+    "drag_drop": "अपनी फ़ाइल यहाँ खींचें और छोड़ें",
+    "or": "या",
+    "select_file": "एक फ़ाइल के लिए ब्राउज़ करें",
+    "paste_section_title": "या लॉग डेटा पेस्ट करें",
+    "format_title": "अपेक्षित प्रारूप",
+    "format_desc": "कर्मचारी आईडी और टाइमस्टैम्प के साथ एक टैब या स्पेस-पृथक फ़ाइल प्रदान करें।",
+    "results": {
+      "title": "आयात परिणाम",
+      "success": "{count} रिकॉर्ड सफलतापूर्वक आयात किए गए।",
+      "errors": "{count} रिकॉर्ड आयात करने में विफल:",
+      "skipped_duplicates": "छोड़े गए/डुप्लिकेट",
+      "line_error": "पंक्ति {line}: {error}"
+    }
+  },
+  "modals": {
+    "shift_assignment": {
+      "assign_title": "शिफ्ट असाइन करें",
+      "edit_title": "शिफ्ट असाइनमेंट संपादित करें",
+      "select_shift": "शिफ्ट चुनें",
+      "unassign": "अनअसाइन करें"
+    },
+    "job_position": {
+      "add_title": "नया पद जोड़ें",
+      "edit_title": "पद संपादित करें",
+      "title": "पद का शीर्षक",
+      "department": "विभाग",
+      "status": "स्थिति",
+      "description": "विवरण",
+      "statuses": {
+        "open": "खुला",
+        "filled": "भरा हुआ"
+      }
+    },
+    "disciplinary": {
+      "add_title": "अनुशासनात्मक रिकॉर्ड जोड़ें",
+      "edit_title": "अनुशासनात्मक रिकॉर्ड संपादित करें",
+      "incident_date": "घटना की तारीख",
+      "record_date": "रिकॉर्ड करने की तारीख",
+      "type": "कार्रवाई का प्रकार",
+      "reason": "कार्रवाई का कारण",
+      "feedback": "कर्मचारी को प्रतिक्रिया",
+      "follow_up": "फॉलो-अप तिथि",
+      "evidence": "सबूत फ़ाइल (वैकल्पिक)",
+      "update_title": "प्रक्रिया अपडेट जोड़ें",
+      "update_note": "अपडेट नोट"
+    }
+  }
+}

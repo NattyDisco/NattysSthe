@@ -1,0 +1,244 @@
+
+{
+  "app": {
+    "title": "Système de Présence"
+  },
+  "common": {
+    "employee": "Employé",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "submit": "Soumettre",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "actions": "Actions",
+    "clear": "Effacer",
+    "print": "Imprimer",
+    "totals": "Totaux",
+    "today": "Aujourd'hui",
+    "previous_month": "Mois Précédent",
+    "next_month": "Mois Suivant",
+    "month": "Mois",
+    "year": "Année"
+  },
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "employees": "Employés",
+    "attendance": "Présence",
+    "attendance_sheet": "Feuille de Présence",
+    "my_attendance": "Ma Présence",
+    "leave_management": "Gestion des Congés",
+    "tasks": "Tâches",
+    "all_tasks": "Toutes les Tâches",
+    "my_tasks": "Mes Tâches",
+    "reports": "Rapports",
+    "settings": "Paramètres",
+    "help": "Aide",
+    "announcements": "Annonces",
+    "audit_logs": "Logs d'Audit",
+    "notifications": "Notifications",
+    "data_analytics": "Analyse de Données",
+    "payroll": "Paie",
+    "shifts": "Gérer les Quarts",
+    "shift_roster": "Planning des Quarts",
+    "manage_shifts": "Gérer les Quarts",
+    "bulk_attendance": "Présence en Masse",
+    "permits": "Permis",
+    "cars_list": "Voitures",
+    "asset_management": "Gestion des Actifs",
+    "install": "Installer l'App",
+    "performance": "Performance",
+    "recruitment": "Recrutement",
+    "hr_hub": "Pôle RH",
+    "employee_journey": "Parcours Employé",
+    "disciplinary": "Disciplinaire",
+    "exit_management": "Gestion des Départs",
+    "hours_calculator": "Calculateur d'Heures",
+    "policy_reports": "Rapports de Politique",
+    "expense_management": "Gestion des Dépenses",
+    "document_center": "Centre de Documents",
+    "custom_forms": "Formulaires Personnalisés",
+    "form_builder": "Créateur de Formulaires",
+    "form_responses": "Réponses aux Formulaires",
+    "fill_form": "Remplir le Formulaire",
+    "alerts": "Alertes",
+    "org_chart": "Organigramme",
+    "incentives": "Incitatifs",
+    "biometric_import": "Importation Biométrique",
+    "calculation_rules": "Règles de Calcul",
+    "headers": {
+      "core_hr": "RH Principal",
+      "operations": "Opérations",
+      "compliance_legal": "Conformité & Légal",
+      "finance_assets": "Finances & Actifs",
+      "platform_reports": "Plateforme & Rapports"
+    },
+    "subheaders": {
+      "attendance": "Présence",
+      "tasks": "Tâches",
+      "shifts": "Quarts",
+      "assets": "Actifs",
+      "finance": "Finances",
+      "reports_analytics": "Rapports & Analyses",
+      "engagement": "Engagement",
+      "system": "Outils Système"
+    }
+  },
+  "auth": {
+    "login_title": "Bon Retour",
+    "login_subtitle": "Connectez-vous pour gérer votre équipe",
+    "admin_login": "Connexion Admin",
+    "employee_login": "Connexion Employé",
+    "admin_demo_note": "Utilisez les identifiants de démo pré-remplis pour l'accès admin.",
+    "employee_login_note": "Entrez le nom de famille et le numéro de téléphone avec lesquels vous avez été enregistré.",
+    "logging_in": "Connexion en cours...",
+    "login_error_employee": "Employé non trouvé ou détails incorrects. Veuillez contacter votre administrateur.",
+    "login_error_admin": "Identifiants d'administrateur non valides pour le mode démo.",
+    "signup_title": "Créer un Compte",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "surname": "Nom de famille (tel qu'enregistré)",
+    "phone": "Numéro de téléphone",
+    "login_button": "Se connecter",
+    "signup_button": "S'inscrire",
+    "no_account": "Pas de compte ?",
+    "has_account": "Déjà un compte ?",
+    "signup_now": "Inscrivez-vous maintenant",
+    "login_now": "Se connecter",
+    "select_language": "Sélectionner la langue"
+  },
+  "dashboard": {
+    "welcome": "Bon retour, {name}!",
+    "all_branches_subtitle": "Voici un aperçu de toutes les activités de l'entreprise.",
+    "single_branch_subtitle": "Voici un aperçu des activités de votre succursale.",
+    "viewing_branch": "Affichage de la succursale",
+    "all_branches": "Toutes les succursales",
+    "vs_yesterday": "vs hier",
+    "cards": {
+      "employees_present": "Employés Présents",
+      "on_leave_sick": "En Congé / Malade",
+      "pending_requests": "Demandes en Attente"
+    },
+    "team_status": {
+      "title": "Statut de l'Équipe Aujourd'hui",
+      "present": "Présent",
+      "on_leave": "En Congé",
+      "absent": "Absent",
+      "no_one_present": "Personne ne s'est encore enregistré.",
+      "no_one_on_leave": "Personne n'est en congé aujourd'hui.",
+      "everyone_accounted_for": "Tout le monde est présent."
+    },
+    "quick_actions": "Actions Rapides",
+    "actions": {
+      "add_user": "Ajouter Utilisateur",
+      "announce": "Annoncer",
+      "bulk_edit": "Édition en Masse"
+    }
+  },
+  "attendance": {
+    "all_employees": "Tous les Employés",
+    "select_employee_prompt_title": "Sélectionner un Employé",
+    "select_employee_prompt_desc": "Choisissez un employé dans le menu déroulant ci-dessus pour afficher et gérer son calendrier de présence."
+  },
+  "attendance_statuses": {
+    "present": "Présent",
+    "absent": "Absent",
+    "leave": "Congé",
+    "sick": "Malade",
+    "holiday": "Férié",
+    "remote": "À distance",
+    "weekend": "Weekend",
+    "off": "Repos"
+  },
+  "bulk_attendance": {
+    "notification_weekdays": "Marqué les jours de semaine comme Présent pour {count} employés.",
+    "notification_status": "Appliqué '{status}' pour {count} employés."
+  },
+   "ai_chatbot": {
+    "title": "Assistant IA",
+    "placeholder": "Posez une question sur les politiques RH...",
+    "send": "Envoyer"
+  },
+  "leave_management": {
+    "request_leave": "Demander un Congé",
+    "modal": {
+      "title": "Nouvelle Demande de Congé",
+      "start_date": "Date de Début",
+      "end_date": "Date de Fin",
+      "reason": "Raison",
+      "success_title": "Demande Soumise avec Succès",
+      "success_message": "Votre demande de congé a été envoyée pour approbation. Vous serez informé de la décision."
+    },
+    "table": {
+      "start_date": "Date de Début",
+      "end_date": "Date de Fin",
+      "reason": "Raison",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "empty": {
+      "title": "Aucune Demande de Congé",
+      "description": "Vous n'avez pas encore demandé de congé, ou aucune demande ne correspond à la vue actuelle."
+    },
+    "notify_whatsapp": "Notifier par WhatsApp",
+    "whatsapp_message": "Cher(e) {employeeName}, votre demande de congé du {startDate} au {endDate} a été {status}. - Natty Hub"
+  },
+    "payroll": {
+    "title": "Traitement de la paie",
+    "select_period": "Sélectionner la période de paie",
+    "generate_button": "Générer la paie pour {count} employés",
+    "run_payroll": "Lancer la paie",
+    "payroll_for": "Paie pour {month} {year}",
+    "employee": "Employé",
+    "base_salary": "Salaire de base",
+    "bonus": "Bonus",
+    "commission": "Commission",
+    "allowances": "Indemnités",
+    "owings": "Dettes",
+    "statutory": "Légal",
+    "actions": "Actions",
+    "view_payslip": "Voir le bulletin de paie",
+    "gross_earnings": "Gains bruts",
+    "total_deductions": "Total des déductions",
+    "net_salary": "Salaire net",
+    "no_employees": "Aucun employé avec des informations salariales à traiter.",
+    "generate_success": "La paie pour {month} {year} a été générée avec succès.",
+    "payslip": {
+      "title": "Bulletin de paie",
+      "pay_date": "Date de paiement",
+      "pay_period": "Période de paie",
+      "earnings": "Gains",
+      "deductions": "Déductions",
+      "overtime_pay": "Heures supplémentaires",
+      "late_arrival": "Arrivée tardive",
+      "off_day": "Jour de congé (non payé)",
+      "net_payable": "Salaire net (à payer)"
+    }
+  },
+  "permits": {
+    "tabs": {
+      "vehicle": "Permis de Véhicule",
+      "work": "Permis de Travail",
+      "business": "Licences Commerciales"
+    }
+  },
+  "settings": {
+    "language": {
+        "title": "Langue"
+    }
+  },
+  "vehicle_permits": {
+    "add_vehicle": "Ajouter un véhicule",
+    "confirm_delete_title": "Supprimer le véhicule",
+    "confirm_delete_message": "Êtes-vous sûr de vouloir supprimer {model} ({plate}) ?",
+    "table": {
+      "model": "Modèle",
+      "plate": "Plaque d'immatriculation",
+      "owner": "Propriétaire",
+      "department": "Département"
+    },
+    "empty": {
+      "title": "Aucun Véhicule Ajouté",
+      "description": "Ajouter les véhicules de l'entreprise pour suivre leurs documents et permis."
+    }
+  }
+}

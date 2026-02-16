@@ -1,0 +1,7 @@
+{
+  "name": "Attendance System",
+  "description": "A modern, AI-powered attendance tracking system. It provides a user-friendly interface for marking daily attendance, viewing employee lists, and generating insightful reports with summaries powered by the Gemini API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
