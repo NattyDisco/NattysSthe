@@ -41,26 +41,64 @@ export const authDB = {
 
 export const cloudDB = {
     fetch: async (table: string) => {
-        const { data, error } = await realClient.from(table).select('*');
-        if (error) throw error;
-        return data;
+        try {
+            const { data, error } = await realClient.from(table).select('*');
+            if (error) {
+                console.error(`Supabase fetch error for table "${table}":`, error);
+                // If it's a permission/RLS error, return empty array instead of throwing
+                if (error.code === 'PGRST116' || error.message?.includes('permission') || error.message?.includes('RLS')) {
+                    console.warn(`Permission denied for table "${table}". Returning empty array.`);
+                    return [];
+                }
+                throw error;
+            }
+            return data || [];
+        } catch (err: any) {
+            console.error(`Unexpected error fetching table "${table}":`, err);
+            // Return empty array for graceful degradation
+            if (err.message?.includes('Failed to fetch') || err.code === 'ECONNREFUSED') {
+                console.warn(`Network error for table "${table}". Returning empty array.`);
+                return [];
+            }
+            throw err;
+        }
     },
     get: async (table: string, id: string | number) => {
-        const { data, error } = await realClient.from(table).select('*').eq('id', id).maybeSingle();
-        if (error) throw error; 
-        return data;
+        try {
+            const { data, error } = await realClient.from(table).select('*').eq('id', id).maybeSingle();
+            if (error) {
+                console.error(`Supabase get error for table "${table}" id "${id}":`, error);
+                if (error.code === 'PGRST116' || error.message?.includes('permission')) {
+                    return null;
+                }
+                throw error;
+            }
+            return data;
+        } catch (err: any) {
+            console.error(`Unexpected error getting from table "${table}":`, err);
+            return null;
+        }
     },
     upsert: async (table: string, data: any) => {
         const { error } = await realClient.from(table).upsert(data);
-        if (error) throw error;
+        if (error) {
+            console.error(`Supabase upsert error for table "${table}":`, error);
+            throw error;
+        }
     },
     delete: async (table: string, id: string | number) => {
         const { error } = await realClient.from(table).delete().eq('id', id);
-        if (error) throw error;
+        if (error) {
+            console.error(`Supabase delete error for table "${table}" id "${id}":`, error);
+            throw error;
+        }
     },
     bulkUpsert: async (table: string, data: any[]) => {
         const { error } = await realClient.from(table).upsert(data);
-        if (error) throw error;
+        if (error) {
+            console.error(`Supabase bulkUpsert error for table "${table}":`, error);
+            throw error;
+        }
     }
 };
 

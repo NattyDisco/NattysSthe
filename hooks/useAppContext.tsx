@@ -522,8 +522,12 @@ export const AppContextProvider: React.FC<{ children: ReactNode }> = ({ children
         const safeFetch = async (tableName: string) => {
             try {
                 return await cloudDB.fetch(tableName);
-            } catch (err) {
-                console.warn(`Soft Fail: Table [${tableName}] unreachable.`, err);
+            } catch (err: any) {
+                // Log detailed error for debugging but don't break the app
+                const errorMsg = err?.message || err?.toString() || 'Unknown error';
+                const errorCode = err?.code || 'NO_CODE';
+                console.warn(`Soft Fail: Table [${tableName}] - ${errorCode}: ${errorMsg}`);
+                // Return empty array for graceful degradation
                 return [];
             }
         };

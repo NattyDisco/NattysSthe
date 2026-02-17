@@ -1,0 +1,116 @@
+{
+  "app": {
+    "title": "Attendance System"
+  },
+  "common": {
+    "employee": "Employee",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "approve": "Approve",
+    "reject": "Reject",
+    "actions": "Actions",
+    "clear": "Clear",
+    "print": "Print",
+    "totals": "Totals",
+    "today": "Today",
+    "previous_month": "Previous Month",
+    "next_month": "Next Month",
+    "month": "Month",
+    "year": "Year"
+  },
+  "auth": {
+    "login_title": "Welcome Back",
+    "login_subtitle": "Login to manage your team",
+    "login_tab": "Login",
+    "signup_tab": "Sign Up",
+    "employee_tab": "Quick ID",
+    "email": "Email Address",
+    "password": "Password",
+    "firstName": "First Name",
+    "surname": "Surname",
+    "phone": "Phone Number",
+    "logging_in": "Logging in...",
+    "login_button": "Log In",
+    "employee_login_note": "Enter your surname and the phone number you were registered with.",
+    "select_language": "Select Language"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "attendance": "Attendance",
+    "attendance_sheet": "Attendance Sheet",
+    "my_attendance": "My Attendance",
+    "leave_management": "Leave Management",
+    "tasks": "Tasks",
+    "all_tasks": "All Tasks",
+    "my_tasks": "My Tasks",
+    "reports": "Reports",
+    "settings": "Settings",
+    "help": "Help",
+    "announcements": "Announcements",
+    "audit_logs": "Audit Logs",
+    "notifications": "Notifications",
+    "data_analytics": "Data Analytics",
+    "payroll": "Payroll",
+    "shifts": "Manage Shifts",
+    "shift_roster": "Shift Roster",
+    "manage_shifts": "Manage Shifts",
+    "bulk_attendance": "Bulk Attendance",
+    "permits": "Permits",
+    "cars_list": "Cars",
+    "asset_management": "Asset Management",
+    "install": "Install App",
+    "performance": "Performance",
+    "recruitment": "Recruitment",
+    "hr_hub": "HR Hub",
+    "employee_journey": "Employee Journey",
+    "disciplinary": "Disciplinary",
+    "exit_management": "Exit Management",
+    "hours_calculator": "Hours Calculator",
+    "policy_reports": "Policy Reports",
+    "expense_management": "Expense Management",
+    "document_center": "Document Center",
+    "custom_forms": "Custom Forms",
+    "form_builder": "Form Builder",
+    "form_responses": "Form Responses",
+    "fill_form": "Fill Form",
+    "alerts": "Alerts",
+    "org_chart": "Org Chart",
+    "incentives": "Incentives",
+    "biometric_import": "Biometric Import",
+    "calculation_rules": "Calculation Rules",
+    "business_hub": "Business Hub",
+    "sales_reporting": "Sales Reporting"
+  },
+  "commercial": {
+    "inventory": {
+      "title": "Inventory Control",
+      "add": "Add Product",
+      "low_stock": "Low Stock Alert",
+      "import": "Import CSV",
+      "export": "Export CSV"
+    },
+    "pos": {
+      "title": "Point of Sale",
+      "checkout": "Complete Checkout",
+      "cash": "Cash Pay",
+      "mpesa": "M-Pesa",
+      "card": "Card Pay",
+      "total": "Grand Total",
+      "subtotal": "Net Value",
+      "vat": "Sales Tax"
+    },
+    "reporting": {
+      "title": "Sales Reporting",
+      "revenue": "Revenue",
+      "profit": "Profit",
+      "transactions": "Transactions",
+      "best_sellers": "Best Selling Products"
+    }
+  },
+  "gemini": {
+    "system_instruction": "You are a helpful HR assistant for the Attendance System. Your role is to answer questions about HR policies, attendance data, or general employee queries in a friendly and professional manner. You have access to the company's data through the prompts you are given."
+  }
+}
+
